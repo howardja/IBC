@@ -72,67 +72,25 @@ border: 10px solid #9ca5ab;
   font-family: 'Courier New';
   font-size: 38px;
   font-style: normal;
-  font-variant: small-caps;
+  font-variant: small-caps;∫
   font-weight: 400;
   line-height: 41.8px;
 }
+a:link, a:visited {
+    background-color: #71b5e3;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: #4CAF50;
+}
 </style>
 
-	<form action="demo_form.asp">
-	<div class="cuadro">
-	<div class="titulo">Ficha Social</div>
-<table class="center">
-<tr><th class="dere">
-  Nombres:</th><th class="iz"> <input type="text"  name="fname"><input type="text" name="fname"><br>
-</th></tr>
-<tr><th class="dere">  Apellido Paterno:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Apellido Materno:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Fecha de registro IBC:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Codigo de registro(sigma):</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  C.I.:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Sexo:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Estado Civil:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Nacionalidad:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Idioma Materno:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Lugar de Nacimiento:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Fecha de Nacimiento:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Lugar de Residencia:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Direcccion:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Telefono:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Celular:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Telefono de Referencia:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Email:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Ingresos del Beneficiario:</th><th class="iz"> <input type="checkbox" name="vehicle" value="Bike">  Sueldo <input type="checkbox" name="vehicle" value="Bike"> Subsidio <input type="checkbox" name="vehicle" value="Bike"> Renta <input type="checkbox" name="vehicle" value="Bike"> Bono <br><input type="checkbox" name="vehicle" value="Bike"> Ingresosos Propios <input type="checkbox" name="vehicle" value="Bike"> Dependientes <input type="checkbox" name="vehicle" value="Bike"> Otros<br>
-</th></tr>
-<tr><th class="dere">  Grados de Instruccion:</th><th class="iz"> <input type="checkbox" name="vehicle" value="Bike">  Primaria <input type="checkbox" name="vehicle" value="Bike"> Secundaria <input type="checkbox" name="vehicle" value="Bike"> Bachiller <input type="checkbox" name="vehicle" value="Bike"> Tecnico <br><input type="checkbox" name="vehicle" value="Bike"> Universitario <input type="checkbox" name="vehicle" value="Bike"> Licenciatura <input type="checkbox" name="vehicle" value="Bike"> Ninguno<br>
-</th></tr>
-<tr><th class="dere">  Otros Estudios:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr><th class="dere">  Ocupacion:</th><th class="iz"> <input type="text" class="textbox" name="lname"><br>
-</th></tr>
-<tr>
-	<th></th>
-  <th><input class="btn" type="submit" value="Registrar"></th>
-  </tr>
-  </table>
-  </div>
-	</form>
-	
+	<a href="/IBC/RegistrarMiembro.php" target="_blank" >Registro Miembro</a><br>
+	<a href="/IBC/DatosMedicos.php"  >Datos Medicos</a>
 </body>
