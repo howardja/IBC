@@ -77,6 +77,26 @@ border: 10px solid #9ca5ab;
   line-height: 41.8px;
 }
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("#todo").hide();
+    });
+    $("#show").click(function(){
+        $("#todo").show();
+    });
+});
+</script>
+</head>
+<body>
+<p id="todo">hola
+  <p>If you click on the "Hide" button, I will disappear.</p>
+</P>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+
 
 	<form action="Nomina.php">
 	<div class="cuadro">
