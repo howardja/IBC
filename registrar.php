@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="estilos.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
 <script>
 function opendatos(datosName) {
     var i;
@@ -81,19 +84,19 @@ function addPariente(tableName){
 
 }
 </script>
-
-<table>
-	<tr>
-		<td>
-			<a href="#" onclick="opendatos('datosPersonales')">datos personales<br></a>
-			<a href="#" onclick="opendatos('informacionContacto')">informacion de Contacto<br></a>
-			<a href="#" onclick="opendatos('informacionSocioecomonica')">informacion Socio-Economica<br></a>
-			<a href="#" onclick="opendatos('datosMedicos')">datos medicos<br></a>
-			<a href="#" onclick="opendatos('informacionVivienda')">informacion sobre vivienda<br></a>
-			<a href="#" onclick="opendatos('informacionRehabilitacion')">informacion sobre rehabilitacion<br></a>
-			<a href="#" onclick="opendatos('datosFamiliares')">datos familiares<br></a>
-		</td>
-		<td>
+<body>
+<div class="cuadro">
+<nav class="registrarMenu">
+<div>
+	<a href="#" onclick="opendatos('datosPersonales')">datos personales<br></a></div><div>
+	<a href="#" onclick="opendatos('informacionContacto')">informacion de Contacto<br></a></div>
+	<a href="#" onclick="opendatos('informacionSocioecomonica')">informacion Socio-Economica<br></a>
+	<a href="#" onclick="opendatos('datosMedicos')">datos medicos<br></a>
+	<a href="#" onclick="opendatos('informacionVivienda')">informacion sobre vivienda<br></a>
+	<a href="#" onclick="opendatos('informacionRehabilitacion')">informacion sobre rehabilitacion<br></a>
+	<a href="#" onclick="opendatos('datosFamiliares')">datos familiares<br></a>
+</nav>
+<div class="contenido">
 			<div id="datosPersonales" class="datos">
 				<table>
 					<tr><td class="dere">
@@ -295,6 +298,6 @@ function addPariente(tableName){
 				</table>
 				
 			</div>
-		</td>
-	</tr>
-</table>
+</div>
+</div>
+</body>
