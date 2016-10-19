@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="estilos.css">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
 
 <script>
 function opendatos(datosName) {
@@ -46,9 +46,6 @@ function addHabilidad(divName){
 
 }
 function addPariente(tableName){
-
-
-
      if (counterp == limit)  {
 
           alert("maximo permitido " + counterp + " ");
@@ -83,9 +80,32 @@ function addPariente(tableName){
      }
 
 }
+
+function inssertar(str) {
+    if (str == "") {
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+    } else {
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("txtHint").innerHTML = this.responseText;
+            }
+        };
+        xmlhttp.open("POST","registrarAfiliado.php"+"?nombre1="+document.getElementById("nombre1").value+"&nombre2="+document.getElementById("nombre2").value+"&apellidoPaterno="+document.getElementById("apellidoPaterno").value+"&apellidoMaterno="+document.getElementById("apellidoMaterno").value+"&sexo="+document.getElementById("sexo").value+"&fechaNacimiento="+document.getElementById("fechaNacimiento").value+"&estadoCivil="+document.getElementById("estadoCivil").value+"&ci="+document.getElementById("ci").value,true);
+        xmlhttp.send();
+    }
+}
 </script>
 <body>
 <div class="cuadro">
+<div id="txtHint"><b>la informacion personal se mostrara aca...</b></div>
 <nav class="registrarMenu">
 <div>
 	<a href="#" onclick="opendatos('datosPersonales')">datos personales<br></a></div><div>
@@ -97,46 +117,57 @@ function addPariente(tableName){
 	<a href="#" onclick="opendatos('datosFamiliares')">datos familiares<br></a>
 </nav>
 <div class="contenido">
+		<form action="">	
 			<div id="datosPersonales" class="datos">
+			
 				<table>
 					<tr><td class="dere">
-					  Nombres:</td><td class="iz"> <input type="text"  name="fname">
+					  Nombres:</td><td class="iz"> <input type="text"  name="nombre1" id="nombre1">
 					</td></tr>
 					<tr><TD></TD>
 						<td>
-							<input type="text" name="fname">
+							<input type="text" id="nombre2">
 						</td>
 					</tr>
-					<tr><td class="dere">  Apellido Paterno:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Apellido Paterno:</td><td class="iz"> <input type="text" class="textbox" id="apellidoPaterno"><br>
 					</td></tr>
-					<tr><td class="dere">  Apellido Materno:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Apellido Materno:</td><td class="iz"> <input type="text" class="textbox" id="apellidoMaterno"><br>
 					</td></tr>
-					<tr><td class="dere">  Fecha de registro IBC:</td><td class="iz"> <input type="DATE" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Fecha de registro IBC:</td><td class="iz"> <input type="DATE" class="textbox" id="fechaRegisttro"><br>
 					</td></tr>
-					<tr><td class="dere">  Codigo de registro(sigma):</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Codigo de registro(sigma):</td><td class="iz"> <input type="text" class="textbox" id="sigma"><br>
 					</td></tr>
-					<tr><td class="dere">  C.I.:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  C.I.:</td><td class="iz"> <input type="text" class="textbox" id="ci"><br>
 					</td></tr>
 					<tr><td class="dere">  Sexo:</td>
 						<td class="iz"> 
-						<select>
+						<select id="sexo">
 						  <option value=""></option>
-						  <option value="Masculino">Masculino</option>
-						  <option value="Femenino">Femenino</option>
+						  <option value="M">Masculino</option>
+						  <option value="F">Femenino</option>
 						</select>
 					</td></tr>
-					<tr><td class="dere">  Estado Civil:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Estado Civil:</td><td class="iz"> 
+						<select id="estadoCivil">
+						  <option value=""></option>
+						  <option value="Soltero">Soltero</option>
+						  <option value="Casado">Casado</option>
+						  <option value="Divorciado">Divorciado</option>
+						  <option value="Viudo">Viudo</option>
+						</select><br>
 					</td></tr>
-					<tr><td class="dere">  Nacionalidad:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Nacionalidad:</td><td class="iz"> <input type="text" class="textbox" id="nacionalidad"><br>
 					</td></tr>
-					<tr><td class="dere">  Idioma Materno:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Idioma Materno:</td><td class="iz"> <input type="text" class="textbox" id="idiomaMaterno"><br>
 					</td></tr>
-					<tr><td class="dere">  Lugar de Nacimiento:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Lugar de Nacimiento:</td><td class="iz"> <input type="text" class="textbox" id="lugarNacimiento"><br>
 					</td></tr>
-					<tr><td class="dere">  Fecha de Nacimiento:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Fecha de Nacimiento:</td><td class="iz"> <input type="date"  id="fechaNacimiento"><br>
 					</td></tr>
 				</table>
+				<p onclick="inssertar(this.value)"> guardar </p>
 			</div>
+		</form>	
 			<div id="informacionContacto" class="datos" style="display: none;">
 				<table>
 					<tr><td class="dere">  Lugar de Residencia:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>

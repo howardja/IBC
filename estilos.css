@@ -55,21 +55,27 @@ div.cuadro {
 
 	z-index: 1;
 	color: red;
-	padding-top: 4px;
+	padding-top: 90px;
 	padding-bottom: 4px;
 	padding-left: 16px;
 	padding-right: 2px;
 	box-sizing: inherit;
 
-} a{
+} 
+.registrarMenu a{
 	text-decoration: none;
   -webkit-transition-property: width; /* Safari */
     transition-property: width ;
-} a:hover a:focus{
+    background-color: gray;
+	width: 200px;
+}
+.registrarMenu  a:hover {
 	width: 59999px;
+	background-color: red;
 }
 .contenido{
-	left: 300px;
+	padding-top:  50px;
+	left: 350px;
 	top: 20px;
 	vertical-align: center;
 	position: absolute;
