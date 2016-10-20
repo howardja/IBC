@@ -98,9 +98,49 @@ function inssertar(str) {
                 document.getElementById("txtHint").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("POST","registrarAfiliado.php"+"?nombre1="+document.getElementById("nombre1").value+"&nombre2="+document.getElementById("nombre2").value+"&apellidoPaterno="+document.getElementById("apellidoPaterno").value+"&apellidoMaterno="+document.getElementById("apellidoMaterno").value+"&sexo="+document.getElementById("sexo").value+"&fechaNacimiento="+document.getElementById("fechaNacimiento").value+"&estadoCivil="+document.getElementById("estadoCivil").value+"&ci="+document.getElementById("ci").value,true);
+        xmlhttp.open("GET","registrarAfiliado.php"+"?nombre1="+document.getElementById("nombre1").value+"&nombre2="+document.getElementById("nombre2").value+"&apellidoPaterno="+document.getElementById("apellidoPaterno").value+"&apellidoMaterno="+document.getElementById("apellidoMaterno").value+"&fechaRegisttro="+document.getElementById("fechaRegisttro").value+"&nacionalidad="+document.getElementById("nacionalidad").value+"&sigma="+document.getElementById("sigma").value+"&idiomaMaterno="+document.getElementById("idiomaMaterno").value+"&provinciaNacimiento="+document.getElementById("provinciaNacimiento").value+"&sexo="+document.getElementById("sexo").value+"&fechaNacimiento="+document.getElementById("fechaNacimiento").value+"&estadoCivil="+document.getElementById("estadoCivil").value+"&ci="+document.getElementById("ci").value,true);
         xmlhttp.send();
     }
+}
+function desplegarLugar() {
+    
+    if (window.XMLHttpRequest) {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    } else {
+        // code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("lugarNacimiento").innerHTML = this.responseText;
+        }
+    };
+    xmlhttp.open("GET","getLugar.php",true);
+    xmlhttp.send();
+}
+function desplegarProvincia(departamentoId) {
+    
+    if (window.XMLHttpRequest) {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    } else {
+        // code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+	        	var select = document.getElementById("provinciaNacimiento");
+				var length = select.options.length;
+				for (i = 0; i < length; i++) {
+				  select.options[i] = null;
+				}
+            document.getElementById("provinciaNacimiento").innerHTML = this.responseText;
+            document.getElementById("provinciaNacimiento").style.display = "block";
+        }
+    };
+    xmlhttp.open("GET","getProvincia.php?departamento="+departamentoId,true);
+    xmlhttp.send();
 }
 </script>
 <body>
@@ -160,7 +200,8 @@ function inssertar(str) {
 					</td></tr>
 					<tr><td class="dere">  Idioma Materno:</td><td class="iz"> <input type="text" class="textbox" id="idiomaMaterno"><br>
 					</td></tr>
-					<tr><td class="dere">  Lugar de Nacimiento:</td><td class="iz"> <input type="text" class="textbox" id="lugarNacimiento"><br>
+					<tr><td class="dere">  Lugar de Nacimiento:</td><td class="iz"> <select id="lugarNacimiento" onclick="desplegarLugar(this.value)" onchange="desplegarProvincia(this.value)"></select><br>
+					<select id="provinciaNacimiento" style=" display: none; "></select>
 					</td></tr>
 					<tr><td class="dere">  Fecha de Nacimiento:</td><td class="iz"> <input type="date"  id="fechaNacimiento"><br>
 					</td></tr>
