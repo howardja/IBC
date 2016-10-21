@@ -81,7 +81,7 @@ function addPariente(tableName){
 
 }
 
-function inssertar(str) {
+function inssertarDatosPersonales(str) {
     if (str == "") {
         document.getElementById("txtHint").innerHTML = "";
         return;
@@ -99,6 +99,27 @@ function inssertar(str) {
             }
         };
         xmlhttp.open("GET","registrarAfiliado.php"+"?nombre1="+document.getElementById("nombre1").value+"&nombre2="+document.getElementById("nombre2").value+"&apellidoPaterno="+document.getElementById("apellidoPaterno").value+"&apellidoMaterno="+document.getElementById("apellidoMaterno").value+"&fechaRegisttro="+document.getElementById("fechaRegisttro").value+"&nacionalidad="+document.getElementById("nacionalidad").value+"&sigma="+document.getElementById("sigma").value+"&idiomaMaterno="+document.getElementById("idiomaMaterno").value+"&provinciaNacimiento="+document.getElementById("provinciaNacimiento").value+"&sexo="+document.getElementById("sexo").value+"&fechaNacimiento="+document.getElementById("fechaNacimiento").value+"&estadoCivil="+document.getElementById("estadoCivil").value+"&ci="+document.getElementById("ci").value,true);
+        xmlhttp.send();
+    }
+}
+function inssertarInformacionContacto(str) {
+    if (str == "") {
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+    } else {
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("txtHint").innerHTML = this.responseText;
+            }
+        };
+        xmlhttp.open("GET","registrarInformacionContacto.php"+"?lugarResidencia="+document.getElementById("lugarResidencia").value+"&direccion="+document.getElementById("direccion").value+"&telefono="+document.getElementById("telefono").value+"&celular="+document.getElementById("celular").value+"&telefonoReferencia="+document.getElementById("telefonoReferencia").value+"&email="+document.getElementById("email").value+"&idAfiliado="+document.getElementById("idAfiliado").innerHTML,true);
         xmlhttp.send();
     }
 }
@@ -145,6 +166,7 @@ function desplegarProvincia(departamentoId) {
 </script>
 <body>
 <div class="cuadro">
+<label id="idAfiliado" style="">2</label>
 <div id="txtHint"><b>la informacion personal se mostrara aca...</b></div>
 <nav class="registrarMenu">
 <div>
@@ -206,24 +228,25 @@ function desplegarProvincia(departamentoId) {
 					<tr><td class="dere">  Fecha de Nacimiento:</td><td class="iz"> <input type="date"  id="fechaNacimiento"><br>
 					</td></tr>
 				</table>
-				<p onclick="inssertar(this.value)"> guardar </p>
+				<p onclick="inssertarDatosPersonales(this.value)"> guardar </p>
 			</div>
 		</form>	
 			<div id="informacionContacto" class="datos" style="display: none;">
 				<table>
-					<tr><td class="dere">  Lugar de Residencia:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Lugar de Residencia:</td><td class="iz"> <input type="text" class="textbox" id="lugarResidencia"><br>
 					</td></tr>
-					<tr><td class="dere">  Direcccion:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Direcccion:</td><td class="iz"> <input type="text" class="textbox" id="direccion"><br>
 					</td></tr>
-					<tr><td class="dere">  Telefono:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Telefono:</td><td class="iz"> <input type="text" class="textbox" id="telefono"><br>
 					</td></tr>
-					<tr><td class="dere">  Celular:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Celular:</td><td class="iz"> <input type="text" class="textbox" id="celular"><br>
 					</td></tr>
-					<tr><td class="dere">  Telefono de Referencia:</td><td class="iz"> <input type="text" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Telefono de Referencia:</td><td class="iz"> <input type="text" class="telefonoReferencia" id="telefonoReferencia"><br>
 					</td></tr>
-					<tr><td class="dere">  Email:</td><td class="iz"> <input type="email" class="textbox" name="lname"><br>
+					<tr><td class="dere">  Email:</td><td class="iz"> <input type="email" class="textbox" id="email"><br>
 					</td></tr>
 				</table>
+				<p onclick="inssertarInformacionContacto(this.value)"> guardar </p>
 			</div>
 			<div id="informacionSocioecomonica" class="datos" style="display:none;">
 				<table>
