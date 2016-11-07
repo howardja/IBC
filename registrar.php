@@ -2,7 +2,7 @@
 <!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
 <script src="registrar.js"></script>
 
-<body onload="datosPersonales()">
+<body onload="datosPersonales();">
 <div class="cuadro">
 <label id="idAfiliado" style=""><?php echo $_GET['id'] ?></label>
 <div id="txtHint"><b>la informacion personal se mostrara aca...</b></div>

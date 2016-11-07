@@ -77,7 +77,27 @@ function addPariente(tableName){
      }
 
 }
-
+function actualizarDatosPersonales(str) {
+    if (str == "") {
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+    } else {
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("txtHint").innerHTML = this.responseText;
+            }
+        };
+        xmlhttp.open("GET","actualizarAfiliado.php"+"?nombre1="+document.getElementById("nombre1").value+"&nombre2="+document.getElementById("nombre2").value+"&apellidoPaterno="+document.getElementById("apellidoPaterno").value+"&apellidoMaterno="+document.getElementById("apellidoMaterno").value+"&fechaRegistro="+document.getElementById("fechaRegistro").value+"&nacionalidad="+document.getElementById("nacionalidad").value+"&sigma="+document.getElementById("sigma").value+"&idiomaMaterno="+document.getElementById("idiomaMaterno").value+"&provinciaNacimiento="+document.getElementById("provinciaNacimiento").value+"&sexo="+document.getElementById("sexo").value+"&fechaNacimiento="+document.getElementById("fechaNacimiento").value+"&estadoCivil="+document.getElementById("estadoCivil").value+"&ci="+document.getElementById("ci").value,true);
+        xmlhttp.send();
+    }
+}
 function inssertarDatosPersonales(str) {
     if (str == "") {
         document.getElementById("txtHint").innerHTML = "";
@@ -95,7 +115,7 @@ function inssertarDatosPersonales(str) {
                 document.getElementById("txtHint").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET","registrarAfiliado.php"+"?nombre1="+document.getElementById("nombre1").value+"&nombre2="+document.getElementById("nombre2").value+"&apellidoPaterno="+document.getElementById("apellidoPaterno").value+"&apellidoMaterno="+document.getElementById("apellidoMaterno").value+"&fechaRegisttro="+document.getElementById("fechaRegisttro").value+"&nacionalidad="+document.getElementById("nacionalidad").value+"&sigma="+document.getElementById("sigma").value+"&idiomaMaterno="+document.getElementById("idiomaMaterno").value+"&provinciaNacimiento="+document.getElementById("provinciaNacimiento").value+"&sexo="+document.getElementById("sexo").value+"&fechaNacimiento="+document.getElementById("fechaNacimiento").value+"&estadoCivil="+document.getElementById("estadoCivil").value+"&ci="+document.getElementById("ci").value,true);
+        xmlhttp.open("GET","registrarAfiliado.php"+"?nombre1="+document.getElementById("nombre1").value+"&nombre2="+document.getElementById("nombre2").value+"&apellidoPaterno="+document.getElementById("apellidoPaterno").value+"&apellidoMaterno="+document.getElementById("apellidoMaterno").value+"&fechaRegistro="+document.getElementById("fechaRegistro").value+"&nacionalidad="+document.getElementById("nacionalidad").value+"&sigma="+document.getElementById("sigma").value+"&idiomaMaterno="+document.getElementById("idiomaMaterno").value+"&provinciaNacimiento="+document.getElementById("provinciaNacimiento").value+"&sexo="+document.getElementById("sexo").value+"&fechaNacimiento="+document.getElementById("fechaNacimiento").value+"&estadoCivil="+document.getElementById("estadoCivil").value+"&ci="+document.getElementById("ci").value,true);
         xmlhttp.send();
     }
 }
