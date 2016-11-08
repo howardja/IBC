@@ -1,0 +1,28 @@
+[24-Oct-2016 20:59:03 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[24-Oct-2016 20:59:03 America/Denver] PHP Notice:  Undefined index: correo in /home2/pygescom/public_html/IBC/entrar.php on line 4
+[24-Oct-2016 21:01:40 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[24-Oct-2016 21:02:46 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[24-Oct-2016 21:03:22 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[24-Oct-2016 21:11:30 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[24-Oct-2016 21:11:30 America/Denver] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home2/pygescom/public_html/IBC/registrar.php on line 11
+[06-Nov-2016 17:38:38 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:05:54 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:05:54 America/Denver] PHP Notice:  Undefined index: correo in /home2/pygescom/public_html/IBC/entrar.php on line 4
+[06-Nov-2016 18:09:35 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:10:10 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:20:34 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:35:00 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:48:23 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:59:55 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:05:42 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:05:51 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:07:33 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:07:45 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:14:24 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:14:33 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:22:29 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:22:37 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:40:26 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:47:20 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:47:28 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[07-Nov-2016 06:12:49 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
