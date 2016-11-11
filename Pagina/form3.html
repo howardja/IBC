@@ -1,6 +1,3 @@
-<?php include("seguridad.php"); 
-echo ("Hola. El script siguió!");
-?>
 <!DOCTYPE html>
 <!--[if IE 7]>                  <html class="ie7 no-js" lang="es">     <![endif]-->
 <!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
@@ -8,27 +5,31 @@ echo ("Hola. El script siguió!");
 <head>
 
 	<meta charset="utf-8">
-	<title>Login | Instituto Bolivianos de la Ceguera</title>
+	<title>IBC | Instituto Bolivianos de la Ceguera</title>
 	<meta name="description" content="Instituto Boliviano de la Ceguera, persona no videntes">
 	<meta name="Keywords" content="Ciegos en bolivia, no videntes, libros gratis en braille, audio, texto digital">
 	<meta name="author" content="Aldo Ayala -Howard Castillo">
+
+
 
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
 	
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Bitter:700' rel='stylesheet' type='text/css'>
 	
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" href="css/fonts/entypo/css/entypo.css">
 	<link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css" media="screen">
 	<link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css" media="screen">
 	<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
+	<link rel="stylesheet" href="vendor/job-manager/frontend.css" media="screen">
+
 
 	<link rel="stylesheet" href="css/theme.css">
 	<link rel="stylesheet" href="css/theme-elements.css">
 	<link rel="stylesheet" href="css/animate.min.css">
-
 
 	<script src="vendor/modernizr.js"></script>
 
@@ -41,17 +42,19 @@ echo ("Hola. El script siguió!");
 		<link rel="stylesheet" href="css/ie.css">
 	<![endif]-->
 	
+
 	<link rel="shortcut icon" href="images/favicon.ico">
 
 	
 </head>
 <body>
 
-
 	<div class="site-wrapper">
 
+		<!-- Header -->
 		<header class="header header-menu-fullw">
 
+			<!-- Header Top Bar -->
 			<div class="header-top">
 				<div class="container">
 					<div class="header-top-left">
@@ -59,7 +62,11 @@ echo ("Hola. El script siguió!");
 							<i class="fa fa-list"></i>
 						</button>
 						<div class="menu-container">
-							
+							<ul class="header-top-nav header-top-nav__secondary">
+								<li><a href="#">Opcion1</a></li>
+								<li><a href="#">Opcion3</a></li>
+								<li><a href="#">Opcion 2</a></li>
+							</ul>
 						</div>
 					</div>
 					<div class="header-top-right">
@@ -75,6 +82,7 @@ echo ("Hola. El script siguió!");
 					</div>
 				</div>
 			</div>
+
 			<div class="header-main">
 				<div class="container">
 
@@ -83,14 +91,15 @@ echo ("Hola. El script siguió!");
 
 					</div>
 
+
 					<button type="button" class="navbar-toggle">
 			        <i class="fa fa-bars"></i>
 			      </button>
 
 			      <div class="head-info">
 			      	<ul class="head-info-list">
-			      		<li><span>TELF :</span> (591) 4 222565</li>
-			      		<li><span>Email :</span> <a href="mailto:info@ibc-cochabamba.com">ibc@ibcbolivia.org</a></li>
+			      		<li><span>Telefono :</span> +591 (4) 123456</li>
+			      		<li><span>Email:</span> <a href="mailto:ibc@ibcbolivia.org">ibc@ibcbolivia.org</a></li>
 			      	</ul>
 			      	
 			      </div>
@@ -98,6 +107,7 @@ echo ("Hola. El script siguió!");
 				</div>
 			</div>
 			
+
 			<nav class="nav-main">
 				<div class="container">
 					<ul data-breakpoint="992" class="flexnav">
@@ -113,54 +123,79 @@ echo ("Hola. El script siguió!");
 		</header>
 
 
+
+
 		<div class="main" role="main">
+
 
 			<section class="page-heading">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<h1>Login</h1>
+							<h1>Registrar</h1>
 						</div>
 						<div class="col-md-6">
 							<ul class="breadcrumb">
 								<li><a href="index.html">Inicio</a></li>
-								<li class="active">Login</li>
+								<li><a href="#">Registrar Datos Medicos </a></li>
+								<li class="active">Post a Profile</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</section>
+			<!-- Page Heading / End -->
 
+			<!-- Page Content -->
 			<section class="page-content">
 				<div class="container">
 					
-					<div class="row">
-						<h2>Usuario: <? echo $_SESSION['nombre'] ?> </h2><br>
-						
-						<div class="col-md-2">
-							<a href="mostrarMiembros.html" class="btn btn-lg btn-primary">Miembros IBC</a>
-						</div><br></br>
-						<br></br>
-						<div class="col-md-2">
-							<a href="menuregistro.html" class="btn btn-lg btn-primary">Registrar Nuevo Miembro</a>
-						</div><br></br>
-						<br></br>
-						<div class="col-md-2">
-							<a href="#" class="btn btn-lg btn-primary">Modificar miembro</a>
-						</div><br></br>
-						<br></br>
-						<div class="col-md-2">
-							<a href="#" class="btn btn-lg btn-primary">Eliminar Miembro</a>
-						</div><br></br>
-						
-						<br></br>
+<form action="registrarform3.php" method="POST">
+	<div class="cuadro">
+	<div class="titulo">Ficha Social</div>
+<table class="center">
+<tr><th class="dere">
+  Nombres:</th><th class="iz"> <input type="text"  name="nombre1"><input type="text" name="nombre2"><br>
+</th></tr>
+<tr><th class="dere">  Apellido Paterno:</th><th class="iz"> <input type="text" class="textbox" name="apellido1"><br>
+</th></tr>
+<tr><th class="dere">  Apellido Materno:</th><th class="iz"> <input type="text" class="textbox" name="apellido2"><br>
+</th></tr>
+<tr><th class="dere">  Fecha de registro IBC:</th><th class="iz"> <input type="text" class="textbox" name="fecha_registro"><br>
+</th></tr>
+<tr><th class="dere">  Codigo de registro(sigma):</th><th class="iz"> <input type="text" class="textbox" name="codigo_sigma"><br>
+</th></tr>
+<tr><th class="dere">  C.I.:</th><th class="iz"> <input type="text" class="textbox" name="ci_miembro"><br>
+<tr><th class="dere">  Tipo de Ceguera:</th><th class="iz"> <input type="checkbox" name="tipo_ceguera" value="Ceguera Total">  Ceguera Total <input type="checkbox" name="tipo_ceguera" value="Baja Vision"> Baja Vision <input type="checkbox" name="tipo_ceguera" value="O.I."> O.I. <input type="checkbox" name="tipo_ceguera" value="O.D."> O.D. <input type="checkbox" name="tipo_ceguera" value="A.O."> A.O.<br>
+</th></tr>
+<tr><th class="dere">  Causas de la Ceguera:</th><th class="iz"> <input type="checkbox" name="causas_ceguera" value="Congenito">  Congenito <input type="checkbox" name="causas_ceguera" value="Enfermedad"> Enfermedad <input type="checkbox" name="causas_ceguera" value="Accidente"> Accidente
+</th></tr>
+<tr><th class="dere">  Fecha de Inicio de la Ceguera:</th><th class="iz"> <input type="text" class="textbox" name="fecha_inicio_ceguera"><br>
+</th></tr>
+<tr><th class="dere">  Diagnostico Medico General:</th><th class="iz">  <textarea rows="4" cols="50" name="diagnostico">
+</textarea> <br>
+</th></tr>
+<tr><th class="dere">  Donde Recibio Atencion Medica:</th><th class="iz"> <input type="checkbox" name="hospital" value="CNS"> C.N.S. <input type="checkbox" name="hospital" value="Hospital Publico"> Hospital Publico <input type="checkbox" name="hospital" value="Clinica Privada"> Clinica Privada <input type="checkbox" name="hospital" value="Medico Particular"> Medico Particular <br><input type="checkbox" name="hospital" value="Otro"> Otro<br>
+</th></tr>
+<tr><th class="dere">  Discapacidad Adicional:</th><th class="iz"> <input type="checkbox" name="dis_adicional" value="Si"> Si <input type="checkbox" name="dis_adicional" value="No"> No  <input type="text" name="especificacion" value="Especificar"><br>
+</th></tr>
+<tr><th class="dere">  Cuenta con Seguro Medico:</th><th class="iz"> <input type="checkbox" name="seguro" value="Si"> Si <input type="checkbox" name="seguro" value="No"> No<br>
+</th></tr>
+<tr><th class="dere">  Nombre de la Institucion del Seguro Medico:</th><th class="iz"> <input type="text" class="textbox" name="nombre_seguro"><br>
+</th></tr>
+<tr>
+	<th></th>
+  <th><input class="btn" type="submit" value="Registrar"></th>
+  </tr>
+  </table>
+  </div>
+	</form>
 
-
-
-				<a href="logout.php">Salir</a> 
 				</div>
 			</section>
+			<!-- Page Content / End -->
 
+			<!-- Footer -->
 			<footer class="footer" id="footer">
 				<div class="footer-widgets">
 					<div class="container">
@@ -233,7 +268,81 @@ echo ("Hola. El script siguió!");
 
 	<script src="js/custom.js"></script>
 
+<style>
+.cuadro  {
+  text-align: center;
+  margin:auto;
+  height:auto;
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 10px solid #9ca5ab;
+/*background-color:#cccccc;*/
+}
+.botones{
+	background-color: #4CAF50;
 
+    display: inline-block;
+  font-family: 'Bitstream Vera Sans Mono';
+  font-size: 20px;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 400;
+  line-height: 45px;
+}
+.btn {
+  background: #71b5e3;
+  background-image: -webkit-linear-gradient(top, #71b5e3, #1d70a3);
+  background-image: -moz-linear-gradient(top, #71b5e3, #1d70a3);
+  background-image: -ms-linear-gradient(top, #71b5e3, #1d70a3);
+  background-image: -o-linear-gradient(top, #71b5e3, #1d70a3);
+  background-image: linear-gradient(to bottom, #71b5e3, #1d70a3);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.Dere{
+	text-align: right;
+}
+.iz{
+	text-align: left;
+}
+.center {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+  }
+ .textbox{
+ 	width: 282;
+ }
+ .titulo {
+  padding: 25px;
+  position: top left;
+  text-align: left;
+
+  font-family: 'Courier New';
+  font-size: 38px;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 400;
+  line-height: 41.8px;
+}
+</style>
 	
 </body>
 </html>

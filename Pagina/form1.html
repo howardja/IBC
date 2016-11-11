@@ -1,6 +1,3 @@
-<?php include("seguridad.php"); 
-echo ("Hola. El script siguió!");
-?>
 <!DOCTYPE html>
 <!--[if IE 7]>                  <html class="ie7 no-js" lang="es">     <![endif]-->
 <!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
@@ -8,7 +5,7 @@ echo ("Hola. El script siguió!");
 <head>
 
 	<meta charset="utf-8">
-	<title>Login | Instituto Bolivianos de la Ceguera</title>
+	<title>IBC | Instituto Bolivianos de la Ceguera</title>
 	<meta name="description" content="Instituto Boliviano de la Ceguera, persona no videntes">
 	<meta name="Keywords" content="Ciegos en bolivia, no videntes, libros gratis en braille, audio, texto digital">
 	<meta name="author" content="Aldo Ayala -Howard Castillo">
@@ -18,17 +15,19 @@ echo ("Hola. El script siguió!");
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Bitter:700' rel='stylesheet' type='text/css'>
 	
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" href="css/fonts/entypo/css/entypo.css">
 	<link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css" media="screen">
 	<link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css" media="screen">
 	<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
+	<link rel="stylesheet" href="vendor/job-manager/frontend.css" media="screen">
+
 
 	<link rel="stylesheet" href="css/theme.css">
 	<link rel="stylesheet" href="css/theme-elements.css">
 	<link rel="stylesheet" href="css/animate.min.css">
-
 
 	<script src="vendor/modernizr.js"></script>
 
@@ -41,17 +40,19 @@ echo ("Hola. El script siguió!");
 		<link rel="stylesheet" href="css/ie.css">
 	<![endif]-->
 	
+
 	<link rel="shortcut icon" href="images/favicon.ico">
 
 	
 </head>
 <body>
 
-
 	<div class="site-wrapper">
 
+		<!-- Header -->
 		<header class="header header-menu-fullw">
 
+			<!-- Header Top Bar -->
 			<div class="header-top">
 				<div class="container">
 					<div class="header-top-left">
@@ -59,7 +60,11 @@ echo ("Hola. El script siguió!");
 							<i class="fa fa-list"></i>
 						</button>
 						<div class="menu-container">
-							
+							<ul class="header-top-nav header-top-nav__secondary">
+								<li><a href="#">Opcion1</a></li>
+								<li><a href="#">Opcion3</a></li>
+								<li><a href="#">Opcion 2</a></li>
+							</ul>
 						</div>
 					</div>
 					<div class="header-top-right">
@@ -75,6 +80,7 @@ echo ("Hola. El script siguió!");
 					</div>
 				</div>
 			</div>
+
 			<div class="header-main">
 				<div class="container">
 
@@ -83,14 +89,15 @@ echo ("Hola. El script siguió!");
 
 					</div>
 
+
 					<button type="button" class="navbar-toggle">
 			        <i class="fa fa-bars"></i>
 			      </button>
 
 			      <div class="head-info">
 			      	<ul class="head-info-list">
-			      		<li><span>TELF :</span> (591) 4 222565</li>
-			      		<li><span>Email :</span> <a href="mailto:info@ibc-cochabamba.com">ibc@ibcbolivia.org</a></li>
+			      		<li><span>Telefono :</span> +591 (4) 123456</li>
+			      		<li><span>Email:</span> <a href="mailto:ibc@ibcbolivia.org">ibc@ibcbolivia.org</a></li>
 			      	</ul>
 			      	
 			      </div>
@@ -98,6 +105,7 @@ echo ("Hola. El script siguió!");
 				</div>
 			</div>
 			
+
 			<nav class="nav-main">
 				<div class="container">
 					<ul data-breakpoint="992" class="flexnav">
@@ -113,54 +121,80 @@ echo ("Hola. El script siguió!");
 		</header>
 
 
+
+
 		<div class="main" role="main">
+
 
 			<section class="page-heading">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<h1>Login</h1>
+							<h1>Registrar</h1>
 						</div>
 						<div class="col-md-6">
 							<ul class="breadcrumb">
 								<li><a href="index.html">Inicio</a></li>
-								<li class="active">Login</li>
+								<li><a href="#">Registrar Datos Medicos </a></li>
+								<li class="active">Post a Profile</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</section>
+			<!-- Page Heading / End -->
 
+			<!-- Page Content -->
 			<section class="page-content">
 				<div class="container">
 					
-					<div class="row">
-						<h2>Usuario: <? echo $_SESSION['nombre'] ?> </h2><br>
-						
-						<div class="col-md-2">
-							<a href="mostrarMiembros.html" class="btn btn-lg btn-primary">Miembros IBC</a>
-						</div><br></br>
-						<br></br>
-						<div class="col-md-2">
-							<a href="menuregistro.html" class="btn btn-lg btn-primary">Registrar Nuevo Miembro</a>
-						</div><br></br>
-						<br></br>
-						<div class="col-md-2">
-							<a href="#" class="btn btn-lg btn-primary">Modificar miembro</a>
-						</div><br></br>
-						<br></br>
-						<div class="col-md-2">
-							<a href="#" class="btn btn-lg btn-primary">Eliminar Miembro</a>
-						</div><br></br>
-						
-						<br></br>
+<form action="registrarform1.php" method="POST">
+	<div class="cuadro">
+	<div class="titulo">Ficha Social</div>
+<table class="center">
+<tr><th class="dere">
+    
+C.I.: <input type="text" name="ci_miembro" ><br>
+<tr><th class="dere">  FORM IBC 1:</th><th class="iz"> <input type="checkbox" name="form1" value="Si"> Si <input type="checkbox" name="form1" value="No"> No  <br>
+</th></tr>
+<tr><th class="dere">  FORM IBC 2:</th><th class="iz"> <input type="checkbox" name="form2" value="Si"> Si <input type="checkbox" name="form2" value="No"> No<br>
+</th></tr>
+    <tr><th class="dere">  FORM IBC ::</th><th class="iz"> <input type="checkbox" name="form3" value="Si"> Si <input type="checkbox" name="form3" value="No"> No<br>
+</th></tr>
+    <tr><th class="dere">  FORM IBC 4:</th><th class="iz"> <input type="checkbox" name="form4" value="Si"> Si <input type="checkbox" name="form4" value="No"> No<br>
+</th></tr>
+    <tr><th class="dere">  Certificacion del documento(+ 2 Copias)+ CI + RUN:</th><th class="iz"> <input type="checkbox" name="run" value="Si"> Si <input type="checkbox" name="run" value="No"> No<br>
+</th></tr>
+    <tr><th class="dere">  Certificado de Nacimiento Original  Computarizado(+ 2 copias):</th><th class="iz"> <input type="checkbox" name="cert_nacimiento" value="Si"> Si <input type="checkbox" name="cert_nacimiento" value="No"> No<br>
+</th></tr>
+    <tr><th class="dere">  Certificado Medico general(+ 2 copias):</th><th class="iz"> <input type="checkbox" name="cert_medico" value="Si"> Si <input type="checkbox" name="cert_medico" value="No"> No<br>
+</th></tr>
+     <tr><th class="dere">  Certificado Residencia Actual(+ 2 copias):</th><th class="iz"> <input type="checkbox" name="cert_residencia" value="Si"> Si <input type="checkbox" name="cert_residencia" value="No"> No<br>
+</th></tr>
+    <tr><th class="dere">  Croquis de Ubicacion de la vivienda donde reside actualemente(+ 2 copias):</th><th class="iz"> <input type="checkbox" name="ubicacion" value="Si"> Si <input type="checkbox" name="ubicacion" value="No"> No<br>
+</th></tr>
+    <tr><th class="dere">  Cuatro Fotografias 2.5*2.5 a color fondo rojo:</th><th class="iz"> <input type="checkbox" name="fotografias" value="Si"> Si <input type="checkbox" name="fotografias" value="No"> No<br>
+</th></tr>
+     <tr><th class="dere">  Copia de Deposito Bancario por concepto de valores (+ 2 copias):</th><th class="iz"> <input type="checkbox" name="deposito_ban" value="Si"> Si <input type="checkbox" name="deposito_ban" value="No"> No<br>
+</th></tr>
+    <tr><th class="dere">  Padron electoral:</th><th class="iz"> <input type="checkbox" name="electoral" value="Si"> Si <input type="checkbox" name="electoral" value="No"> No<br>
+</th></tr>
+      <tr><th class="dere">  Grupo Sanguineo:</th><th class="iz"> <input type="checkbox" name="grupo_sanguineo" value="Si"> Si <input type="checkbox" name="grupo_sanguineo" value="No"> No<br>
+</th></tr>
 
+<tr>
+	<th></th>
+  <th><input class="btn" type="submit" value="Registrar"></th>
+  </tr>
+  </table>
+  </div>
+	</form>
 
-
-				<a href="logout.php">Salir</a> 
 				</div>
 			</section>
+			<!-- Page Content / End -->
 
+			<!-- Footer -->
 			<footer class="footer" id="footer">
 				<div class="footer-widgets">
 					<div class="container">
@@ -233,7 +267,81 @@ echo ("Hola. El script siguió!");
 
 	<script src="js/custom.js"></script>
 
+<style>
+.cuadro  {
+  text-align: center;
+  margin:auto;
+  height:auto;
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 10px solid #9ca5ab;
+/*background-color:#cccccc;*/
+}
+.botones{
+	background-color: #4CAF50;
 
+    display: inline-block;
+  font-family: 'Bitstream Vera Sans Mono';
+  font-size: 20px;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 400;
+  line-height: 45px;
+}
+.btn {
+  background: #71b5e3;
+  background-image: -webkit-linear-gradient(top, #71b5e3, #1d70a3);
+  background-image: -moz-linear-gradient(top, #71b5e3, #1d70a3);
+  background-image: -ms-linear-gradient(top, #71b5e3, #1d70a3);
+  background-image: -o-linear-gradient(top, #71b5e3, #1d70a3);
+  background-image: linear-gradient(to bottom, #71b5e3, #1d70a3);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.Dere{
+	text-align: right;
+}
+.iz{
+	text-align: left;
+}
+.center {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+  }
+ .textbox{
+ 	width: 282;
+ }
+ .titulo {
+  padding: 25px;
+  position: top left;
+  text-align: left;
+
+  font-family: 'Courier New';
+  font-size: 38px;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 400;
+  line-height: 41.8px;
+}
+</style>
 	
 </body>
 </html>

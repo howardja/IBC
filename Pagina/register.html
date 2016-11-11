@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<!--[if IE 7]>                  <html class="ie7 no-js" lang="en">     <![endif]-->
-<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en">     <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en">  <!--<![endif]-->
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="es">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="es">  <!--<![endif]-->
 <head>
 
-	<!-- Basic Page Needs
-	================================================== -->
 	<meta charset="utf-8">
 	<title>Login | Instituto Bolivianos de la Ceguera</title>
 	<meta name="description" content="Instituto Boliviano de la Ceguera, persona no videntes">
@@ -13,17 +11,11 @@
 	<meta name="author" content="Aldo Ayala -Howard Castillo">
 
 
-	<!-- Mobile Specific Metas
-	================================================== -->
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
 	
-	<!-- Google Web Fonts
-	================================================== -->
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Bitter:700' rel='stylesheet' type='text/css'>
 	
-	<!-- CSS
-	================================================== -->
-	<!-- Base + Vendors CSS -->
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" href="css/fonts/entypo/css/entypo.css">
@@ -31,14 +23,11 @@
 	<link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css" media="screen">
 	<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
 
-	<!-- Theme CSS-->
 	<link rel="stylesheet" href="css/theme.css">
 	<link rel="stylesheet" href="css/theme-elements.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 
 
-
-	<!-- Head Libs -->
 	<script src="vendor/modernizr.js"></script>
 
 	<!--[if lt IE 9]>
@@ -50,23 +39,16 @@
 		<link rel="stylesheet" href="css/ie.css">
 	<![endif]-->
 	
-	<!-- Favicons
-	================================================== -->
 	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
-	
+
 </head>
 <body>
 
 	<div class="site-wrapper">
 
-		<!-- Header -->
+
 		<header class="header header-menu-fullw">
 
-			<!-- Header Top Bar -->
 			<div class="header-top">
 				<div class="container">
 					<div class="header-top-left">
@@ -83,29 +65,26 @@
 						</button>
 						<div class="menu-container">
 							<ul class="header-top-nav header-top-nav__tertiary">
-								<li><a href="login.html"><i class="fa-pencil-square-o fa"></i> Registrarse</a></li>
+								<li><a href="register.html"><i class="fa-pencil-square-o fa"></i> Registrarse</a></li>
 								<li><a href="login.html"><i class="fa-lock fa"></i> Login</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- Header Top Bar / End -->
+
 			<div class="header-main">
 				<div class="container">
-					<!-- Logo -->
+
 					<div class="logo">
-						<a href="index.html"><img src="images/logo.png" alt="PetSitter"></a>
-						<!-- <h1><a href="index.html"><span>Pet</span>Sitter</a></h1>
-						<p class="tagline">Find an Awesome PetSitter</p> -->
+						<a href="index.html"><img src="images/logo.png" alt="IBC"></a>
 					</div>
-					<!-- Logo / End -->
+			
 
 					<button type="button" class="navbar-toggle">
 			        <i class="fa fa-bars"></i>
 			      </button>
 
-			      <!-- Banner -->
 			      <div class="head-info">
 			      	<ul class="head-info-list">
 			      		<li><span>TELF :</span> (591) 4 222565</li>
@@ -113,11 +92,11 @@
 			      	</ul>
 			      	
 			      </div>
-			      <!-- Banner / End -->
+		
 				</div>
 			</div>
 			
-			<!-- Navigation -->
+
 			<nav class="nav-main">
 				<div class="container">
 					<ul data-breakpoint="992" class="flexnav">
@@ -129,16 +108,14 @@
 					</ul>
 				</div>
 			</nav>
-			<!-- Navigation / End -->
+	
 			
 		</header>
-		<!-- Header / End -->
 
 
-		<!-- Main -->
 		<div class="main" role="main">
 
-			<!-- Page Heading -->
+	
 			<section class="page-heading">
 				<div class="container">
 					<div class="row">
@@ -154,9 +131,7 @@
 					</div>
 				</div>
 			</section>
-			<!-- Page Heading / End -->
-
-			<!-- Page Content -->
+	
 			<section class="page-content">
 				<div class="container">
 					
@@ -166,10 +141,14 @@
 							<div class="spacer-lg visible-sm visible-xs"></div>
 							<div class="box">
 								<h3>Registro</h3>
-								<form action="#" method="POST" role="form">
+								<form action="registrar.php" method="POST" role="form">
+									<div class="form-group">
+										<label>Usuario <span class="required">*</span></label>
+										<input type="text" class="form-control" name="nombre">
+									</div>
 									<div class="form-group">
 										<label>Email <span class="required">*</span></label>
-										<input type="text" class="form-control">
+										<input type="text" class="form-control" name="correo">
 									</div>
 									<div class="row">
 										<div class="col-md-6">
@@ -177,7 +156,7 @@
 												<label>
 													Password <span class="required">*</span>
 												</label>
-												<input type="password" class="form-control">
+												<input type="password" class="form-control" name="pass1">
 											</div>
 										</div>
 										<div class="col-md-6">
@@ -185,7 +164,7 @@
 												<label>
 													Repetir Password <span class="required">*</span>
 												</label>
-												<input type="password" class="form-control">
+												<input type="password" class="form-control" name="pass2">
 											</div>
 										</div>
 									</div>
@@ -197,16 +176,12 @@
 
 				</div>
 			</section>
-			<!-- Page Content / End -->
 
-			
-			<!-- Footer -->
 			<footer class="footer" id="footer">
 				<div class="footer-widgets">
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-6 col-md-2">
-								<!-- Widget :: Custom Menu -->
 								<div class="widget_nav_menu widget widget__footer">
 									<h3 class="widget-title">Informacion</h3>
 									<div class="widget-content">
@@ -217,13 +192,12 @@
 										</ul>
 									</div>
 								</div>
-								<!-- /Widget :: Custom Menu -->
+
 							</div>
 							<div class="col-sm-6 col-md-2">
-								<!-- Widget :: Categories -->
+					
 								
 								</div>
-								<!-- /Widget :: Categories -->
 							</div>
 
 							<div class="clearfix visible-sm"></div>
@@ -249,18 +223,14 @@
 					</div>
 				</div>
 			</footer>
-			<!-- Footer / End -->
+	
 			
 		</div>
-		<!-- Main / End -->
+
 	</div>
 	
 	
-	
-	
-	
-	<!-- Javascript Files
-	================================================== -->
+
 	<script src="vendor/jquery-1.11.0.min.js"></script>
 	<script src="vendor/jquery-migrate-1.2.1.min.js"></script>
 	<script src="vendor/bootstrap.js"></script>
@@ -275,7 +245,6 @@
 	<script src="vendor/jquery.appear.js"></script>
 	<script src="vendor/jquery.stellar.min.js"></script>
 
-	<!-- Newsletter Form -->
 	<script src="vendor/jquery.validate.js"></script>
 	<script src="js/newsletter.js"></script>
 

@@ -2,8 +2,8 @@
 session_start();
 require_once('conexion.php');
 // recuperamos los datos del formulario
-$correo = $_POST['correo'];
 $nombre = $_POST['nombre'];
+$correo = $_POST['correo'];
 $clave1 = $_POST['pass1'];
 $clave2 = $_POST['pass2'];
 
