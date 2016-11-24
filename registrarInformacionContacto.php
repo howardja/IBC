@@ -18,7 +18,7 @@ echo "alert('".$nom1." ".$nom2."');";
 echo "</script>";
 
 mysqli_select_db($con,"ajax_demo");
-$sql="UPDATE NoVidente SET telefono=".$_GET['telefono'].", celular=".$_GET['celular'].", telefonoReferencia=".$_GET['telefonoReferencia'].", email='".$_GET['email']."' WHERE id = ".$_GET['idAfiliado'];
+$sql="UPDATE IGNORE NoVidente SET telefono=".$_GET['telefono'].", celular=".$_GET['celular'].", telefonoReferencia=".$_GET['telefonoReferencia'].", email='".$_GET['email']."' WHERE id = ".$_GET['idAfiliado'];
  mysqli_query($con,$sql);
 
 echo $sql;
