@@ -5,7 +5,11 @@ function opendatos(datosName) {
     for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";  
     }
-    document.getElementById(datosName).style.display = "block";  
+    document.getElementById(datosName).style.display = "block";
+    if (datosName== "informacionContacto")
+    {
+        informacionContacto()
+    } 
 }
 function toogleRehabilitacion(x)
 {
@@ -196,5 +200,23 @@ function datosPersonales() {
         }
     };
     xmlhttp.open("GET","datosPersonales.php?id="+document.getElementById("idAfiliado").innerHTML,true);
+    xmlhttp.send();
+}
+function informacionContacto() {
+    
+    if (window.XMLHttpRequest) {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    } else {
+        // code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+                
+            document.getElementById("informacionContacto").innerHTML = this.responseText;
+        }
+    };
+    xmlhttp.open("GET","informacionContacto.php?id="+document.getElementById("idAfiliado").innerHTML,true);
     xmlhttp.send();
 }

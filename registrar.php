@@ -22,21 +22,7 @@
 			</div>
 		</form>	
 			<div id="informacionContacto" class="datos" style="display: none;">
-				<table>
-					<tr><td class="dere">  Lugar de Residencia:</td><td class="iz"> <input type="text" class="textbox" id="lugarResidencia"><br>
-					</td></tr>
-					<tr><td class="dere">  Direcccion:</td><td class="iz"> <input type="text" class="textbox" id="direccion"><br>
-					</td></tr>
-					<tr><td class="dere">  Telefono:</td><td class="iz"> <input type="text" class="textbox" id="telefono"><br>
-					</td></tr>
-					<tr><td class="dere">  Celular:</td><td class="iz"> <input type="text" class="textbox" id="celular"><br>
-					</td></tr>
-					<tr><td class="dere">  Telefono de Referencia:</td><td class="iz"> <input type="text" class="telefonoReferencia" id="telefonoReferencia"><br>
-					</td></tr>
-					<tr><td class="dere">  Email:</td><td class="iz"> <input type="email" class="textbox" id="email"><br>
-					</td></tr>
-				</table>
-				<p onclick="inssertarInformacionContacto(this.value)"> guardar </p>
+				
 			</div>
 			<div id="informacionSocioecomonica" class="datos" style="display:none;">
 				<table>
