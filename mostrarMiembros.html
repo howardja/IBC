@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="es">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="es">  <!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+	<title>IBC | Instituto Bolivianos de la Ceguera</title>
+	<meta name="description" content="Instituto Boliviano de la Ceguera, persona no videntes">
+	<meta name="Keywords" content="Ciegos en bolivia, no videntes, libros gratis en braille, audio, texto digital">
+	<meta name="author" content="Aldo Ayala -Howard Castillo">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Bitter:700' rel='stylesheet' type='text/css'>
+	
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="css/fonts/entypo/css/entypo.css">
+	<link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css" media="screen">
+	<link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css" media="screen">
+	<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
+	<link rel="stylesheet" href="vendor/job-manager/frontend.css" media="screen">
+
+
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/theme-elements.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+
+	<script src="vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!--[if IE]>
+		<link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+	
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	
+</head>
+<body>
+
+	<div class="site-wrapper">
+
+		<!-- Header -->
+		<header class="header header-menu-fullw">
+
+			<!-- Header Top Bar -->
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-left">
+						<button class="btn btn-sm btn-default menu-link menu-link__secondary">
+							<i class="fa fa-list"></i>
+						</button>
+						<div class="menu-container">
+							<ul class="header-top-nav header-top-nav__secondary">
+								<li><a href="#">Opcion1</a></li>
+								<li><a href="#">Opcion3</a></li>
+								<li><a href="#">Opcion 2</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="header-top-right">
+						<button class="btn btn-sm btn-default menu-link menu-link__tertiary">
+							<i class="fa fa-user"></i>
+						</button>
+						<div class="menu-container">
+							<ul class="header-top-nav header-top-nav__tertiary">
+								<li><a href="register.html"><i class="fa-pencil-square-o fa"></i> Registrarse</a></li>
+								<li><a href="login.html"><i class="fa-lock fa"></i> Login</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="header-main">
+				<div class="container">
+
+					<div class="logo">
+						<a href="index.html"><img src="images/logo.png" alt="IBC"></a>
+
+					</div>
+
+
+					<button type="button" class="navbar-toggle">
+			        <i class="fa fa-bars"></i>
+			      </button>
+
+			      <div class="head-info">
+			      	<ul class="head-info-list">
+			      		<li><span>Telefono :</span> +591 (4) 123456</li>
+			      		<li><span>Email:</span> <a href="mailto:ibc@ibcbolivia.org">ibc@ibcbolivia.org</a></li>
+			      	</ul>
+			      	
+			      </div>
+
+				</div>
+			</div>
+			
+
+			<nav class="nav-main">
+				<div class="container">
+					<ul data-breakpoint="992" class="flexnav">
+						<li class="active"><a href="index.html">Inicio</a></li>
+						<li><a href="somos.html">Quienes Somos</a></li>
+						<li><a href="laboral.html">Inclusion Laboral</a></li>
+						<li><a href="#">Publicaciones</a></li>
+						<li><a href="contacts.html">Contacto</a></li>
+					</ul>
+				</div>
+			</nav>
+			
+		</header>
+
+
+
+
+		<div class="main" role="main">
+
+
+			<section class="page-heading">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h1>Registrar</h1>
+						</div>
+						<div class="col-md-6">
+							<ul class="breadcrumb">
+								<li><a href="index.html">Inicio</a></li>
+								<li><a href="#">Registrar Datos Medicos </a></li>
+								<li class="active">Post a Profile</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Page Heading / End -->
+
+			<!-- Page Content -->
+			<section class="page-content">
+				<div class="container">
+					
+<?
+
+require_once('conexion.php');
+
+$sql="select * from form3";
+$result= mysql_query($sql) or die(mysql_error());
+if(mysql_num_rows($result)==0) die("No hay registros para mostrar");
+
+ 
+echo "<table border=1 cellpadding=4 cellspacing=0>";
+
+
+ echo "<tr>
+         <th colspan=5> Miembros IBC Cochabamba </th>
+       <tr>
+         <th> ID </th><th> CI </th><th>Nombre</th><th> Apellido </th>
+         <th> Codigo SIGMA </th><th> Tipo Ceguera </th>
+      </tr>";
+
+while($row=mysql_fetch_array($result))
+{
+ echo "<tr>
+         <td align='right'> $row[id] </td>
+         <td> $row[ci_miembro] </td>
+         <td> $row[nombre1] </td>
+         <td> $row[apellido1] </td>
+         <td> $row[codigo_sigma] </td>
+         <td> $row[tipo_ceguera] </td>
+      </tr>";
+}
+echo "</table>";
+
+?>
+
+				</div>
+			</section>
+			<!-- Page Content / End -->
+
+			<!-- Footer -->
+			<footer class="footer" id="footer">
+				<div class="footer-widgets">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6 col-md-2">
+								<!-- Widget :: Custom Menu -->
+								<div class="widget_nav_menu widget widget__footer">
+									<h3 class="widget-title">Informacion</h3>
+									<div class="widget-content">
+										<ul>
+											<li><a href="#">Libros</a></li>
+											
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-2">
+
+								
+								</div>
+							</div>
+
+							<div class="clearfix visible-sm"></div>
+
+							<div class="col-sm-6 col-md-4">
+								
+								
+							</div>
+							<div class="col-sm-6 col-md-4">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6 col-md-4">
+								Copyright &copy; 2016  <a href="index.html">IBC</a> &nbsp;| &nbsp;
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</footer>
+			
+		</div>
+
+	</div>
+	
+	
+
+	<script src="vendor/jquery-1.11.0.min.js"></script>
+	<script src="vendor/jquery-migrate-1.2.1.min.js"></script>
+	<script src="vendor/bootstrap.js"></script>
+	<script src="vendor/jquery.flexnav.min.js"></script>
+	<script src="vendor/jquery.hoverIntent.minified.js"></script>
+	<script src="vendor/jquery.flickrfeed.js"></script>
+	<script src="vendor/isotope/isotope.pkgd.min.js"></script>
+	<script src="vendor/isotope/jquery.imagesloaded.min.js"></script>
+	<script src="vendor/magnific-popup/jquery.magnific-popup.js"></script>
+	<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+	<script src="vendor/jquery.fitvids.js"></script>
+	<script src="vendor/jquery.appear.js"></script>
+	<script src="vendor/jquery.stellar.min.js"></script>
+
+	<script src="vendor/jquery.validate.js"></script>
+	<script src="js/newsletter.js"></script>
+
+	<script src="js/custom.js"></script>
+
+<style>
+.cuadro  {
+  text-align: center;
+  margin:auto;
+  height:auto;
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 10px solid #9ca5ab;
+/*background-color:#cccccc;*/
+}
+.botones{
+	background-color: #4CAF50;
+
+    display: inline-block;
+  font-family: 'Bitstream Vera Sans Mono';
+  font-size: 20px;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 400;
+  line-height: 45px;
+}
+.btn {
+  background: #71b5e3;
+  background-image: -webkit-linear-gradient(top, #71b5e3, #1d70a3);
+  background-image: -moz-linear-gradient(top, #71b5e3, #1d70a3);
+  background-image: -ms-linear-gradient(top, #71b5e3, #1d70a3);
+  background-image: -o-linear-gradient(top, #71b5e3, #1d70a3);
+  background-image: linear-gradient(to bottom, #71b5e3, #1d70a3);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.Dere{
+	text-align: right;
+}
+.iz{
+	text-align: left;
+}
+.center {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+  }
+ .textbox{
+ 	width: 282;
+ }
+ .titulo {
+  padding: 25px;
+  position: top left;
+  text-align: left;
+
+  font-family: 'Courier New';
+  font-size: 38px;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 400;
+  line-height: 41.8px;
+}
+</style>
+	
+</body>
+</html>
