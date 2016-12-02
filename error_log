@@ -1,0 +1,504 @@
+[24-Oct-2016 20:59:03 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[24-Oct-2016 20:59:03 America/Denver] PHP Notice:  Undefined index: correo in /home2/pygescom/public_html/IBC/entrar.php on line 4
+[24-Oct-2016 21:01:40 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[24-Oct-2016 21:02:46 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[24-Oct-2016 21:03:22 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[24-Oct-2016 21:11:30 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[24-Oct-2016 21:11:30 America/Denver] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home2/pygescom/public_html/IBC/registrar.php on line 11
+[06-Nov-2016 17:38:38 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:05:54 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:05:54 America/Denver] PHP Notice:  Undefined index: correo in /home2/pygescom/public_html/IBC/entrar.php on line 4
+[06-Nov-2016 18:09:35 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:10:10 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:20:34 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:35:00 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:48:23 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 18:59:55 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:05:42 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:05:51 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:07:33 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:07:45 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:14:24 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:14:33 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:22:29 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:22:37 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:40:26 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:47:20 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[06-Nov-2016 19:47:28 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[07-Nov-2016 06:12:49 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home2/pygescom/public_html/IBC/conexion.php on line 2
+[07-Nov-2016 18:10:51 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 18:22:36 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 18:23:02 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 18:23:10 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 18:23:23 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 18:24:02 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 18:59:57 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 19:00:04 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:22:11 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:26:11 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:27:14 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:27:15 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:30:30 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:30:31 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:31:26 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:31:27 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:36:12 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:39:09 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:39:54 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:40:31 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:40:32 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:47:46 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:47:47 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:50:34 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:52:37 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:52:42 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:59:13 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:59:14 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:59:17 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 20:59:54 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 21:03:06 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 21:03:38 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 21:04:11 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 21:04:54 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 21:06:14 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 21:06:35 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 21:24:38 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 21:26:04 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: ci_miembro in /home4/ibccocha/public_html/registrarform3.php on line 11
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 21:27:15 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 21:32:18 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: nombre1 in /home4/ibccocha/public_html/registrarform3.php on line 5
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: nombre2 in /home4/ibccocha/public_html/registrarform3.php on line 6
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: apellido1 in /home4/ibccocha/public_html/registrarform3.php on line 7
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: apellido2 in /home4/ibccocha/public_html/registrarform3.php on line 8
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: fecha_registro in /home4/ibccocha/public_html/registrarform3.php on line 9
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: codigo_sigma in /home4/ibccocha/public_html/registrarform3.php on line 10
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: tipo_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 12
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: causas_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 13
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: fecha_inicio_ceguera in /home4/ibccocha/public_html/registrarform3.php on line 14
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: diagnostico in /home4/ibccocha/public_html/registrarform3.php on line 15
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: hospital in /home4/ibccocha/public_html/registrarform3.php on line 16
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: dis_adicional in /home4/ibccocha/public_html/registrarform3.php on line 17
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: especificacion in /home4/ibccocha/public_html/registrarform3.php on line 18
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: seguro in /home4/ibccocha/public_html/registrarform3.php on line 19
+[07-Nov-2016 22:41:49 America/Denver] PHP Notice:  Undefined index: nombre_seguro in /home4/ibccocha/public_html/registrarform3.php on line 20
+[07-Nov-2016 22:48:57 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  Undefined index: form1 in /home4/ibccocha/public_html/registrarform1.php on line 6
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  Undefined index: form2 in /home4/ibccocha/public_html/registrarform1.php on line 7
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  Undefined index: form3 in /home4/ibccocha/public_html/registrarform1.php on line 8
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  Undefined index: form4 in /home4/ibccocha/public_html/registrarform1.php on line 9
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  Undefined index: run in /home4/ibccocha/public_html/registrarform1.php on line 10
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  Undefined index: cert_nacimiento in /home4/ibccocha/public_html/registrarform1.php on line 11
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  Undefined index: cert_medico in /home4/ibccocha/public_html/registrarform1.php on line 12
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  Undefined index: cert_residencia in /home4/ibccocha/public_html/registrarform1.php on line 13
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  Undefined index: ubicacion in /home4/ibccocha/public_html/registrarform1.php on line 14
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  Undefined index: fotografias in /home4/ibccocha/public_html/registrarform1.php on line 15
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  Undefined index: deposito_ban in /home4/ibccocha/public_html/registrarform1.php on line 16
+[07-Nov-2016 22:49:59 America/Denver] PHP Notice:  Undefined index: grupo_sanguineo in /home4/ibccocha/public_html/registrarform1.php on line 17
+[07-Nov-2016 22:58:59 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 23:29:17 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 23:45:46 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[07-Nov-2016 23:53:20 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[08-Nov-2016 02:51:39 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[08-Nov-2016 05:51:17 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[08-Nov-2016 06:03:01 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[08-Nov-2016 06:09:18 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[08-Nov-2016 06:19:00 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[09-Nov-2016 06:24:21 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[19-Nov-2016 11:02:51 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[22-Nov-2016 06:27:40 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 07:35:43 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 12:33:36 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 12:34:45 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 12:39:35 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 12:42:38 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 12:43:43 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 12:50:10 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 13:04:56 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 13:07:48 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 13:20:18 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 13:39:08 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 13:42:25 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 13:50:08 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 13:52:17 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2
+[24-Nov-2016 14:41:51 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home4/ibccocha/public_html/conexion.php on line 2

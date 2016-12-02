@@ -1,0 +1,10 @@
+[24-Nov-2016 07:18:14 America/Denver] PHP Notice:  Undefined index: acc in /home4/ibccocha/public_html/Prueba2/mod_usuarios/reg_usu.php on line 19
+[24-Nov-2016 07:18:14 America/Denver] PHP Notice:  Undefined index: nombre in /home4/ibccocha/public_html/Prueba2/mod_usuarios/reg_usu.php on line 57
+[24-Nov-2016 07:18:14 America/Denver] PHP Notice:  Undefined index: login in /home4/ibccocha/public_html/Prueba2/mod_usuarios/reg_usu.php on line 61
+[24-Nov-2016 07:18:14 America/Denver] PHP Notice:  Undefined index: ced_prof in /home4/ibccocha/public_html/Prueba2/mod_usuarios/reg_usu.php on line 103
+[24-Nov-2016 07:18:14 America/Denver] PHP Notice:  Undefined index: nombre_prof in /home4/ibccocha/public_html/Prueba2/mod_usuarios/reg_usu.php on line 107
+[24-Nov-2016 07:18:17 America/Denver] PHP Notice:  Undefined index: acc in /home4/ibccocha/public_html/Prueba2/mod_usuarios/reg_usu.php on line 19
+[24-Nov-2016 07:18:17 America/Denver] PHP Notice:  Undefined index: nombre in /home4/ibccocha/public_html/Prueba2/mod_usuarios/reg_usu.php on line 57
+[24-Nov-2016 07:18:17 America/Denver] PHP Notice:  Undefined index: login in /home4/ibccocha/public_html/Prueba2/mod_usuarios/reg_usu.php on line 61
+[24-Nov-2016 07:18:17 America/Denver] PHP Notice:  Undefined index: ced_prof in /home4/ibccocha/public_html/Prueba2/mod_usuarios/reg_usu.php on line 103
+[24-Nov-2016 07:18:17 America/Denver] PHP Notice:  Undefined index: nombre_prof in /home4/ibccocha/public_html/Prueba2/mod_usuarios/reg_usu.php on line 107

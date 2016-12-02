@@ -1,0 +1,4 @@
+[24-Nov-2016 07:17:36 America/Denver] PHP Notice:  Undefined index: ape in /home4/ibccocha/public_html/Prueba2/mod_historial/bus_his.php on line 28
+[24-Nov-2016 07:17:36 America/Denver] PHP Notice:  Undefined index: nom in /home4/ibccocha/public_html/Prueba2/mod_historial/bus_his.php on line 42
+[24-Nov-2016 07:17:36 America/Denver] PHP Notice:  Undefined index: est in /home4/ibccocha/public_html/Prueba2/mod_historial/bus_his.php on line 60
+[24-Nov-2016 07:17:36 America/Denver] PHP Notice:  Undefined index: busqueda in /home4/ibccocha/public_html/Prueba2/mod_historial/bus_his.php on line 76
